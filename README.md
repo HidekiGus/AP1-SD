@@ -2,6 +2,8 @@
 
 Data de entrega: 27/09 até às 23:59h
 
+Não esquecer de trocar o nome do repositório para grupo-B.zip
+
 Avisos do professor:
 
 - Atenção para o slide 7, que apresenta o formato esperado para o arquivo da entrega! 
@@ -9,3 +11,5 @@ Avisos do professor:
 - Sigam o formato de arquivo conforme definido no slide 7. 
 
 - Não esqueçam de incluir os arquivos VHDL!
+
+
