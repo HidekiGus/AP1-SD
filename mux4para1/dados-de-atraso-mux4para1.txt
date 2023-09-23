@@ -1,0 +1,5 @@
+-------------- dados de atraso mux4para1 ---------------
+input port: sel[1]
+output port: y[0]
+atraso (ns): 4.066
+RR, RF, FR, FF: FR
