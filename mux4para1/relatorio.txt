@@ -11,5 +11,5 @@ total pins: 7
 -------------- dados de atraso ---------------
 input port: a[0]
 output port: y[0]
-atraso (ns): 8.524
+atraso (ns): 3.748
 RR, RF, FR, FF: FR
