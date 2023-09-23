@@ -5,11 +5,11 @@ matricula: 22100626 e 21202112
 familia: Cyclone III
 dispositivo: EP3C5E144C7
 -------- dados de utilizacao da placa --------
-total combinational functions:
-dedicates logic registers:
-total pins:
+total combinational functions: 4
+dedicates logic registers: 0
+total pins: 7
 -------------- dados de atraso ---------------
-input port:
-output port:
-atraso (ns):
-RR, RF, FR, FF:
+input port: f
+output port: a
+atraso (ns): 4.940 ns
+RR, RF, FR, FF: FF
