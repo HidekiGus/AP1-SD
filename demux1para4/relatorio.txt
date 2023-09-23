@@ -9,7 +9,7 @@ total combinational functions: 4
 dedicates logic registers: 0
 total pins: 7
 -------------- dados de atraso ---------------
-input port: sel[0]
+input port: f
 output port: a
-atraso (ns): 8.554 ns
-RR, RF, FR, FF: FR
+atraso (ns): 4.940
+RR, RF, FR, FF: FF
