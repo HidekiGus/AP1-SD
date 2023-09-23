@@ -1,5 +1,5 @@
 Flow report for decodificadorBCD7Seg
-Sat Sep 23 16:14:00 2023
+Sat Sep 23 17:06:03 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,26 +40,22 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sat Sep 23 16:14:00 2023           ;
+; Flow Status                        ; Successful - Sat Sep 23 17:06:03 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; decodificadorBCD7Seg                            ;
 ; Top-level Entity Name              ; decodificadorBCD7Seg                            ;
-; Family                             ; Cyclone IV GX                                   ;
-; Total logic elements               ; 7 / 14,400 ( < 1 % )                            ;
-;     Total combinational functions  ; 7 / 14,400 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 0 / 14,400 ( 0 % )                              ;
-; Total registers                    ; 0                                               ;
-; Total pins                         ; 11 / 81 ( 14 % )                                ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 552,960 ( 0 % )                             ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total GXB Receiver Channel PCS     ; 0 / 2 ( 0 % )                                   ;
-; Total GXB Receiver Channel PMA     ; 0 / 2 ( 0 % )                                   ;
-; Total GXB Transmitter Channel PCS  ; 0 / 2 ( 0 % )                                   ;
-; Total GXB Transmitter Channel PMA  ; 0 / 2 ( 0 % )                                   ;
-; Total PLLs                         ; 0 / 3 ( 0 % )                                   ;
-; Device                             ; EP4CGX15BF14C6                                  ;
+; Family                             ; Cyclone III                                     ;
+; Device                             ; EP3C5E144C7                                     ;
 ; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 7 / 5,136 ( < 1 % )                             ;
+;     Total combinational functions  ; 7 / 5,136 ( < 1 % )                             ;
+;     Dedicated logic registers      ; 0 / 5,136 ( 0 % )                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 11 / 95 ( 12 % )                                ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 423,936 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                                  ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -68,7 +64,7 @@ applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 09/23/2023 16:13:50  ;
+; Start date & time ; 09/23/2023 17:05:53  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; decodificadorBCD7Seg ;
 +-------------------+----------------------+
@@ -79,9 +75,11 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 14071518771130.169549643017828 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 14071518771130.169549955322328 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
@@ -93,12 +91,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4676 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 4972 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4609 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4606 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4557 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:05                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4617 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:03     ; 1.0                     ; 4872 MB             ; 00:00:02                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4535 MB             ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4582 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4496 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:06     ; --                      ; --                  ; 00:00:04                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

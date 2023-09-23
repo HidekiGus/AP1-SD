@@ -1,20 +1,16 @@
-Fitter Status : Successful - Sat Sep 23 16:13:54 2023
+Fitter Status : Successful - Sat Sep 23 17:05:58 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : decodificadorBCD7Seg
 Top-level Entity Name : decodificadorBCD7Seg
-Family : Cyclone IV GX
-Device : EP4CGX15BF14C6
+Family : Cyclone III
+Device : EP3C5E144C7
 Timing Models : Final
-Total logic elements : 7 / 14,400 ( < 1 % )
-    Total combinational functions : 7 / 14,400 ( < 1 % )
-    Dedicated logic registers : 0 / 14,400 ( 0 % )
+Total logic elements : 7 / 5,136 ( < 1 % )
+    Total combinational functions : 7 / 5,136 ( < 1 % )
+    Dedicated logic registers : 0 / 5,136 ( 0 % )
 Total registers : 0
-Total pins : 11 / 81 ( 14 % )
+Total pins : 11 / 95 ( 12 % )
 Total virtual pins : 0
-Total memory bits : 0 / 552,960 ( 0 % )
-Embedded Multiplier 9-bit elements : 0
-Total GXB Receiver Channel PCS : 0 / 2 ( 0 % )
-Total GXB Receiver Channel PMA : 0 / 2 ( 0 % )
-Total GXB Transmitter Channel PCS : 0 / 2 ( 0 % )
-Total GXB Transmitter Channel PMA : 0 / 2 ( 0 % )
-Total PLLs : 0 / 3 ( 0 % )
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

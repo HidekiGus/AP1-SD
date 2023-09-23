@@ -1,5 +1,0 @@
--------------- dados de atraso bcd7seg-logica ---------------
-input port: bcd[0]
-output port: abcdefg[2]
-atraso (ns): 3.761
-RR, RF, FR, FF: FF

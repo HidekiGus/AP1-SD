@@ -16,19 +16,19 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "09/23/2023 16:13:59"
+-- DATE "09/23/2023 17:06:03"
 
 -- 
--- Device: Altera EP4CGX15BF14C6 Package FBGA169
+-- Device: Altera EP3C5E144C7 Package TQFP144
 -- 
 
 -- 
 -- This VHDL file should be used for ModelSim-Altera (VHDL) only
 -- 
 
-LIBRARY CYCLONEIV;
+LIBRARY CYCLONEIII;
 LIBRARY IEEE;
-USE CYCLONEIV.CYCLONEIV_COMPONENTS.ALL;
+USE CYCLONEIII.CYCLONEIII_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY 	decodificadorBCD7Seg IS
@@ -39,17 +39,17 @@ ENTITY 	decodificadorBCD7Seg IS
 END decodificadorBCD7Seg;
 
 -- Design Ports Information
--- abcdefg[0]	=>  Location: PIN_L9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[1]	=>  Location: PIN_M9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[2]	=>  Location: PIN_F10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[3]	=>  Location: PIN_N4,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[4]	=>  Location: PIN_N10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[5]	=>  Location: PIN_N9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- abcdefg[6]	=>  Location: PIN_N8,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- bcd[0]	=>  Location: PIN_N13,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- bcd[1]	=>  Location: PIN_F9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- bcd[2]	=>  Location: PIN_G13,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- bcd[3]	=>  Location: PIN_H13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[0]	=>  Location: PIN_33,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[1]	=>  Location: PIN_1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[2]	=>  Location: PIN_31,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[3]	=>  Location: PIN_30,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[4]	=>  Location: PIN_34,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[5]	=>  Location: PIN_28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- abcdefg[6]	=>  Location: PIN_32,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- bcd[0]	=>  Location: PIN_39,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- bcd[1]	=>  Location: PIN_2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- bcd[2]	=>  Location: PIN_11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- bcd[3]	=>  Location: PIN_10,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF decodificadorBCD7Seg IS
@@ -72,9 +72,9 @@ SIGNAL \abcdefg[4]~output_o\ : std_logic;
 SIGNAL \abcdefg[5]~output_o\ : std_logic;
 SIGNAL \abcdefg[6]~output_o\ : std_logic;
 SIGNAL \bcd[3]~input_o\ : std_logic;
+SIGNAL \bcd[2]~input_o\ : std_logic;
 SIGNAL \bcd[0]~input_o\ : std_logic;
 SIGNAL \bcd[1]~input_o\ : std_logic;
-SIGNAL \bcd[2]~input_o\ : std_logic;
 SIGNAL \Mux6~0_combout\ : std_logic;
 SIGNAL \Mux5~0_combout\ : std_logic;
 SIGNAL \Mux4~0_combout\ : std_logic;
@@ -93,8 +93,8 @@ ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 \ALT_INV_Mux6~0_combout\ <= NOT \Mux6~0_combout\;
 
--- Location: IOOBUF_X24_Y0_N9
-\abcdefg[0]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y6_N23
+\abcdefg[0]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -105,8 +105,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[0]~output_o\);
 
--- Location: IOOBUF_X24_Y0_N2
-\abcdefg[1]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y23_N2
+\abcdefg[1]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -117,8 +117,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[1]~output_o\);
 
--- Location: IOOBUF_X33_Y24_N2
-\abcdefg[2]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y7_N2
+\abcdefg[2]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -129,8 +129,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[2]~output_o\);
 
--- Location: IOOBUF_X10_Y0_N9
-\abcdefg[3]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y8_N16
+\abcdefg[3]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -141,8 +141,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[3]~output_o\);
 
--- Location: IOOBUF_X26_Y0_N9
-\abcdefg[4]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y5_N16
+\abcdefg[4]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -153,8 +153,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[4]~output_o\);
 
--- Location: IOOBUF_X20_Y0_N2
-\abcdefg[5]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y9_N9
+\abcdefg[5]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -165,8 +165,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[5]~output_o\);
 
--- Location: IOOBUF_X20_Y0_N9
-\abcdefg[6]~output\ : cycloneiv_io_obuf
+-- Location: IOOBUF_X0_Y6_N16
+\abcdefg[6]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -177,8 +177,8 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \abcdefg[6]~output_o\);
 
--- Location: IOIBUF_X33_Y16_N15
-\bcd[3]~input\ : cycloneiv_io_ibuf
+-- Location: IOIBUF_X0_Y18_N15
+\bcd[3]~input\ : cycloneiii_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -188,30 +188,8 @@ PORT MAP (
 	i => ww_bcd(3),
 	o => \bcd[3]~input_o\);
 
--- Location: IOIBUF_X33_Y10_N8
-\bcd[0]~input\ : cycloneiv_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_bcd(0),
-	o => \bcd[0]~input_o\);
-
--- Location: IOIBUF_X33_Y25_N1
-\bcd[1]~input\ : cycloneiv_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_bcd(1),
-	o => \bcd[1]~input_o\);
-
--- Location: IOIBUF_X33_Y16_N22
-\bcd[2]~input\ : cycloneiv_io_ibuf
+-- Location: IOIBUF_X0_Y18_N22
+\bcd[2]~input\ : cycloneiii_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -221,123 +199,145 @@ PORT MAP (
 	i => ww_bcd(2),
 	o => \bcd[2]~input_o\);
 
--- Location: LCCOMB_X25_Y1_N24
-\Mux6~0\ : cycloneiv_lcell_comb
+-- Location: IOIBUF_X1_Y0_N15
+\bcd[0]~input\ : cycloneiii_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_bcd(0),
+	o => \bcd[0]~input_o\);
+
+-- Location: IOIBUF_X0_Y23_N8
+\bcd[1]~input\ : cycloneiii_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_bcd(1),
+	o => \bcd[1]~input_o\);
+
+-- Location: LCCOMB_X1_Y7_N16
+\Mux6~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux6~0_combout\ = (\bcd[3]~input_o\) # ((\bcd[1]~input_o\ & ((!\bcd[2]~input_o\) # (!\bcd[0]~input_o\))) # (!\bcd[1]~input_o\ & ((\bcd[2]~input_o\))))
+-- \Mux6~0_combout\ = (\bcd[3]~input_o\) # ((\bcd[2]~input_o\ & ((!\bcd[1]~input_o\) # (!\bcd[0]~input_o\))) # (!\bcd[2]~input_o\ & ((\bcd[1]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011111111111010",
+	lut_mask => "1011111111101110",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux6~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N10
-\Mux5~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N18
+\Mux5~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux5~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[0]~input_o\ & ((\bcd[1]~input_o\) # (!\bcd[2]~input_o\))) # (!\bcd[0]~input_o\ & (\bcd[1]~input_o\ & !\bcd[2]~input_o\))))
+-- \Mux5~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[2]~input_o\ & (\bcd[0]~input_o\ & \bcd[1]~input_o\)) # (!\bcd[2]~input_o\ & ((\bcd[0]~input_o\) # (\bcd[1]~input_o\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0100000001010100",
+	lut_mask => "0101000100010000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux5~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N12
-\Mux4~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N4
+\Mux4~0\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \Mux4~0_combout\ = (\bcd[0]~input_o\) # ((\bcd[1]~input_o\ & (\bcd[3]~input_o\)) # (!\bcd[1]~input_o\ & ((\bcd[2]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110111111101100",
+	lut_mask => "1111101011111100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux4~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N30
-\Mux3~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N14
+\Mux3~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux3~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[0]~input_o\ & (\bcd[1]~input_o\ $ (!\bcd[2]~input_o\))) # (!\bcd[0]~input_o\ & (!\bcd[1]~input_o\ & \bcd[2]~input_o\))))
+-- \Mux3~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[2]~input_o\ & (\bcd[0]~input_o\ $ (!\bcd[1]~input_o\))) # (!\bcd[2]~input_o\ & (\bcd[0]~input_o\ & !\bcd[1]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0100000100000100",
+	lut_mask => "0100000000010100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux3~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N8
-\Mux2~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N0
+\Mux2~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux2~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[0]~input_o\ & (\bcd[1]~input_o\ & !\bcd[2]~input_o\)))
+-- \Mux2~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[2]~input_o\ & (!\bcd[0]~input_o\ & \bcd[1]~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000000010000",
+	lut_mask => "0000000100000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux2~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N26
-\Mux1~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N26
+\Mux1~0\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \Mux1~0_combout\ = (!\bcd[3]~input_o\ & (\bcd[2]~input_o\ & (\bcd[0]~input_o\ $ (\bcd[1]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0001010000000000",
+	lut_mask => "0000010001000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux1~0_combout\);
 
--- Location: LCCOMB_X25_Y1_N28
-\Mux0~0\ : cycloneiv_lcell_comb
+-- Location: LCCOMB_X1_Y7_N20
+\Mux0~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux0~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[1]~input_o\ & (\bcd[0]~input_o\ $ (\bcd[2]~input_o\))))
+-- \Mux0~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[1]~input_o\ & (\bcd[2]~input_o\ $ (\bcd[0]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000100000100",
+	lut_mask => "0000000000010100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \bcd[3]~input_o\,
-	datab => \bcd[0]~input_o\,
-	datac => \bcd[1]~input_o\,
-	datad => \bcd[2]~input_o\,
+	datab => \bcd[2]~input_o\,
+	datac => \bcd[0]~input_o\,
+	datad => \bcd[1]~input_o\,
 	combout => \Mux0~0_combout\);
 
 ww_abcdefg(0) <= \abcdefg[0]~output_o\;
