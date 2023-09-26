@@ -22,8 +22,8 @@
 # -- Compiling entity decodificadorBCD7Seg
 # -- Compiling architecture structure of decodificadorBCD7Seg
 # 
-vsim +altera -do decodificadorBCD7Seg_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo work.decodificadorbcd7seg
-# vsim +altera -do decodificadorBCD7Seg_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo work.decodificadorbcd7seg 
+vsim +altera -do decodificadorBCD7Seg_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo work.decodificadorbcd7seg
+# vsim +altera -do decodificadorBCD7Seg_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo work.decodificadorbcd7seg 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -32,14 +32,12 @@ vsim +altera -do decodificadorBCD7Seg_run_msim_gate_vhdl.do -l msim_transcript -
 # Loading cycloneiv.cycloneiv_atom_pack(body)
 # Loading cycloneiv.cycloneiv_components
 # Loading work.decodificadorbcd7seg(structure)
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneiv.cycloneiv_io_obuf(arch)
 # Loading cycloneiv.cycloneiv_io_ibuf(arch)
 # Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
-# Loading instances from C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
-# Loading timing data from C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# Loading instances from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# Loading timing data from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /decodificadorbcd7seg File: decodificadorBCD7Seg_6_1200mv_85c_slow.vho
 add wave  \
@@ -65,5 +63,28 @@ sim:/decodificadorbcd7seg/abcdefg
 # -- Compiling entity decodificadorBCD7Seg
 # -- Compiling architecture structure of decodificadorBCD7Seg
 # 
-do C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/decodificadorBCD7Seg-logica/estimulos.do
+do C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/estimulos.do
+run
+run
+restart -f
+# Loading work.decodificadorbcd7seg(structure)
+# Loading instances from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# Loading timing data from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /decodificadorbcd7seg File: decodificadorBCD7Seg_6_1200mv_85c_slow.vho
+run
+restart -f
+# Loading instances from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# Loading timing data from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /decodificadorbcd7seg File: decodificadorBCD7Seg_6_1200mv_85c_slow.vho
+do C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/estimulos.do
+run
+restart -f
+# Loading instances from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# Loading timing data from C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/simulation/modelsim/decodificadorBCD7Seg_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /decodificadorbcd7seg File: decodificadorBCD7Seg_6_1200mv_85c_slow.vho
+do C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/estimulos.do
+do C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-logica/estimulos.do
 run

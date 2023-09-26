@@ -2,7 +2,7 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Gus\Downloads\AP1-SD-main\AP1-SD-main\decodificadorBCD7Seg-logica\simulation\modelsim
+Z0 dC:\Users\Gus\Documents\GitHub\AP1-SD\decodificadorBCD7Seg-logica\simulation\modelsim
 Edecodificadorbcd7seg
 Z1 w1695496928
 Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
@@ -11,7 +11,7 @@ Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
 Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z7 DPx9 cycloneiv 20 cycloneiv_components 0 22 bh0cR2@ZAOzXIcZ^3KXOk0
-Z8 dC:\Users\Gus\Downloads\AP1-SD-main\AP1-SD-main\decodificadorBCD7Seg-logica\simulation\modelsim
+Z8 dC:\Users\Gus\Documents\GitHub\AP1-SD\decodificadorBCD7Seg-logica\simulation\modelsim
 Z9 8decodificadorBCD7Seg_6_1200mv_85c_slow.vho
 Z10 FdecodificadorBCD7Seg_6_1200mv_85c_slow.vho
 l0
@@ -21,7 +21,7 @@ V9FPCaE[VWjGd2V6O@kb412
 Z11 OV;C;10.1d;51
 31
 !i10b 1
-Z12 !s108 1695497034.781000
+Z12 !s108 1695698397.514000
 Z13 !s90 -reportprogress|300|-93|-work|work|decodificadorBCD7Seg_6_1200mv_85c_slow.vho|
 Z14 !s107 decodificadorBCD7Seg_6_1200mv_85c_slow.vho|
 Z15 o-93 -work work -O0

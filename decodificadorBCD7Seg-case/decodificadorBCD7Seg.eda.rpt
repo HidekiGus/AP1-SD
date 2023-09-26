@@ -1,5 +1,5 @@
 EDA Netlist Writer report for decodificadorBCD7Seg
-Sat Sep 23 17:06:03 2023
+Tue Sep 26 00:02:49 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Sep 23 17:06:03 2023 ;
+; EDA Netlist Writer Status ; Successful - Tue Sep 26 00:02:49 2023 ;
 ; Revision Name             ; decodificadorBCD7Seg                  ;
 ; Top-level Entity Name     ; decodificadorBCD7Seg                  ;
 ; Family                    ; Cyclone III                           ;
@@ -88,7 +88,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Sep 23 17:06:03 2023
+    Info: Processing started: Tue Sep 26 00:02:49 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off decodificadorBCD7Seg -c decodificadorBCD7Seg
 Info (204019): Generated file decodificadorBCD7Seg_7_1200mv_85c_slow.vho in folder "C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-case/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file decodificadorBCD7Seg_7_1200mv_0c_slow.vho in folder "C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-case/simulation/modelsim/" for EDA simulation tool
@@ -100,7 +100,7 @@ Info (204019): Generated file decodificadorBCD7Seg_min_1200mv_0c_vhd_fast.sdo in
 Info (204019): Generated file decodificadorBCD7Seg_vhd.sdo in folder "C:/Users/Gus/Documents/GitHub/AP1-SD/decodificadorBCD7Seg-case/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4508 megabytes
-    Info: Processing ended: Sat Sep 23 17:06:03 2023
+    Info: Processing ended: Tue Sep 26 00:02:49 2023
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

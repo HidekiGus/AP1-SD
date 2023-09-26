@@ -9,7 +9,7 @@ total combinational functions: 7
 dedicates logic registers: 0
 total pins: 11
 -------------- dados de atraso ---------------
-input port: bcd[2]
+input port: bcd[0]
 output port: abcdefg[2]
-atraso (ns): 4.940
+atraso (ns): 3.761
 RR, RF, FR, FF: FF

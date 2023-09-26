@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "09/23/2023 17:06:03"
+-- DATE "09/26/2023 00:02:49"
 
 -- 
 -- Device: Altera EP3C5E144C7 Package TQFP144
@@ -224,11 +224,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N16
 \Mux6~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux6~0_combout\ = (\bcd[3]~input_o\) # ((\bcd[2]~input_o\ & ((!\bcd[1]~input_o\) # (!\bcd[0]~input_o\))) # (!\bcd[2]~input_o\ & ((\bcd[1]~input_o\))))
+-- \Mux6~0_combout\ = (\bcd[2]~input_o\ & (!\bcd[3]~input_o\ & ((!\bcd[1]~input_o\) # (!\bcd[0]~input_o\)))) # (!\bcd[2]~input_o\ & (\bcd[3]~input_o\ $ (((\bcd[1]~input_o\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011111111101110",
+	lut_mask => "0001010101100110",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -241,11 +241,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N18
 \Mux5~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux5~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[2]~input_o\ & (\bcd[0]~input_o\ & \bcd[1]~input_o\)) # (!\bcd[2]~input_o\ & ((\bcd[0]~input_o\) # (\bcd[1]~input_o\)))))
+-- \Mux5~0_combout\ = (\bcd[2]~input_o\ & ((\bcd[3]~input_o\) # ((\bcd[0]~input_o\ & \bcd[1]~input_o\)))) # (!\bcd[2]~input_o\ & ((\bcd[1]~input_o\) # ((!\bcd[3]~input_o\ & \bcd[0]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0101000100010000",
+	lut_mask => "1111101110011000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -275,11 +275,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N14
 \Mux3~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux3~0_combout\ = (!\bcd[3]~input_o\ & ((\bcd[2]~input_o\ & (\bcd[0]~input_o\ $ (!\bcd[1]~input_o\))) # (!\bcd[2]~input_o\ & (\bcd[0]~input_o\ & !\bcd[1]~input_o\))))
+-- \Mux3~0_combout\ = (\bcd[1]~input_o\ & ((\bcd[3]~input_o\) # ((\bcd[2]~input_o\ & \bcd[0]~input_o\)))) # (!\bcd[1]~input_o\ & (\bcd[2]~input_o\ $ (((!\bcd[3]~input_o\ & \bcd[0]~input_o\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0100000000010100",
+	lut_mask => "1110101010011100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -292,11 +292,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N0
 \Mux2~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux2~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[2]~input_o\ & (!\bcd[0]~input_o\ & \bcd[1]~input_o\)))
+-- \Mux2~0_combout\ = (\bcd[2]~input_o\ & (\bcd[3]~input_o\)) # (!\bcd[2]~input_o\ & (\bcd[1]~input_o\ & ((\bcd[3]~input_o\) # (!\bcd[0]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000100000000",
+	lut_mask => "1010101110001000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -309,11 +309,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N26
 \Mux1~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux1~0_combout\ = (!\bcd[3]~input_o\ & (\bcd[2]~input_o\ & (\bcd[0]~input_o\ $ (\bcd[1]~input_o\))))
+-- \Mux1~0_combout\ = (\bcd[3]~input_o\ & ((\bcd[2]~input_o\) # ((\bcd[1]~input_o\)))) # (!\bcd[3]~input_o\ & (\bcd[2]~input_o\ & (\bcd[0]~input_o\ $ (\bcd[1]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000010001000000",
+	lut_mask => "1010111011001000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -326,11 +326,11 @@ PORT MAP (
 -- Location: LCCOMB_X1_Y7_N20
 \Mux0~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Mux0~0_combout\ = (!\bcd[3]~input_o\ & (!\bcd[1]~input_o\ & (\bcd[2]~input_o\ $ (\bcd[0]~input_o\))))
+-- \Mux0~0_combout\ = (\bcd[1]~input_o\ & (\bcd[3]~input_o\)) # (!\bcd[1]~input_o\ & (\bcd[2]~input_o\ $ (((!\bcd[3]~input_o\ & \bcd[0]~input_o\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000000010100",
+	lut_mask => "1010101010011100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (

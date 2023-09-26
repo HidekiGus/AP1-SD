@@ -3,19 +3,20 @@ Info: Start Nativelink Simulation process
 ========= EDA Simulation Settings =====================
 
 Sim Mode              :  Gate
-Family                :  cycloneivgx
+Family                :  cycloneiii
 Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
 Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  vhdl
 Version               :  93
 Simulation Mode       :  GUI
-Sim Output File       :  decodificadorBCD7Seg_6_1200mv_85c_slow.vho
-Sim SDF File       :  decodificadorBCD7Seg_6_1200mv_85c_vhd_slow.sdo
+Sim Output File       :  decodificadorBCD7Seg_7_1200mv_85c_slow.vho
+Sim SDF File       :  decodificadorBCD7Seg_7_1200mv_85c_vhd_slow.sdo
 Sim dir               :  simulation\modelsim
 
 =======================================================
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File decodificadorBCD7Seg_run_msim_gate_vhdl.do already exists - backing up current file as decodificadorBCD7Seg_run_msim_gate_vhdl.do.bak1
 Info: Spawning ModelSim-Altera Simulation software 

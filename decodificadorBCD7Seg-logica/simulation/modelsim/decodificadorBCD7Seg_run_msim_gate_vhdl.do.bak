@@ -5,5 +5,5 @@ if {[file exists gate_work]} {
 vlib gate_work
 vmap work gate_work
 
-vcom -93 -work work {decodificadorBCD7Seg_7_1200mv_85c_slow.vho}
+vcom -93 -work work {decodificadorBCD7Seg_6_1200mv_85c_slow.vho}
 
