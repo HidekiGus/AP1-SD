@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/demux1para4/demux1para4.vhd
-source_file = 1, C:/Users/Gus/Downloads/AP1-SD-main/AP1-SD-main/demux1para4/db/demux1para4.cbx.xml
+source_file = 1, C:/Users/Gus/Documents/GitHub/AP1-SD/demux1para4/demux1para4.vhd
+source_file = 1, C:/Users/Gus/Documents/GitHub/AP1-SD/demux1para4/db/demux1para4.cbx.xml
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd

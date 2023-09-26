@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "09/23/2023 15:03:51"
+-- DATE "09/26/2023 09:14:20"
 
 -- 
 -- Device: Altera EP3C5E144C7 Package TQFP144
